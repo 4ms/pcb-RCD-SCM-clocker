@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name clocker-12b-eagle-import)(type Legacy)(uri ${KIPRJMOD}/clocker-12b-eagle-import.lib)(options "")(descr ""))
+)

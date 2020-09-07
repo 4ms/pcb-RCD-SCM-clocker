@@ -1,0 +1,809 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11772 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2400 3300 2600 3300
+Wire Wire Line
+	2600 3300 2800 3300
+Wire Wire Line
+	2800 3200 2800 3300
+Wire Wire Line
+	3000 3200 2800 3300
+Wire Wire Line
+	2800 3400 2800 3300
+Wire Wire Line
+	2800 3300 2700 3300
+Wire Wire Line
+	2800 3400 2600 3400
+Wire Wire Line
+	2600 3400 2400 3400
+Wire Wire Line
+	2400 3400 2400 3300
+Wire Wire Line
+	2400 3300 2400 3200
+Wire Wire Line
+	2400 3200 2600 3200
+Wire Wire Line
+	2600 3200 2800 3200
+Wire Wire Line
+	2600 3200 2600 3300
+Wire Wire Line
+	2600 3300 2600 3400
+Connection ~ 2800 3300
+Connection ~ 2600 3300
+Connection ~ 2400 3300
+Connection ~ 2400 3200
+Connection ~ 2800 3200
+Connection ~ 2800 3400
+Connection ~ 2400 3400
+Connection ~ 2600 3400
+Connection ~ 2600 3200
+Text GLabel 2400 3300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9100 2000 9200 2000
+Text GLabel 9100 2000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9100 3700 8900 3700
+Wire Wire Line
+	8900 3700 8900 3800
+Text GLabel 9100 3700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 3000 5300 3000
+Text GLabel 5500 3000 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	9900 1900 9500 1900
+Text GLabel 9900 1900 0    10   BiDi ~ 0
++9V
+Wire Wire Line
+	9800 3600 9400 3600
+Text GLabel 9800 3600 0    10   BiDi ~ 0
++VREF
+Wire Wire Line
+	2800 3000 2400 3000
+Wire Wire Line
+	2800 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 2700
+Wire Wire Line
+	3800 2700 4600 2700
+Connection ~ 2800 3000
+Wire Wire Line
+	2400 3100 2800 3100
+Wire Wire Line
+	2800 3100 3900 3100
+Connection ~ 2800 3100
+Wire Wire Line
+	2800 3500 3100 3500
+Wire Wire Line
+	2800 3500 2400 3500
+Text Label 2400 3500 0    70   ~ 0
+-12V
+Connection ~ 2800 3500
+Wire Wire Line
+	5100 3100 5300 3100
+Wire Wire Line
+	5300 3100 5500 3100
+Connection ~ 5300 3100
+Wire Wire Line
+	5500 2900 5500 2700
+Wire Wire Line
+	5500 2700 5100 2700
+Wire Wire Line
+	4400 3100 4500 3100
+Wire Wire Line
+	4100 3100 4400 3100
+Connection ~ 4400 3100
+Text GLabel 4400 3100 0    10   BiDi ~ 0
++12V
+Wire Wire Line
+	8000 2100 8100 2100
+Text GLabel 8000 2100 0    10   BiDi ~ 0
++12V
+Wire Wire Line
+	3000 2000 3000 1800
+Wire Wire Line
+	3000 1800 2400 1800
+Wire Wire Line
+	2400 1800 2400 2100
+Text GLabel 2400 1800 0    70   BiDi ~ 0
+IN-SW
+Wire Wire Line
+	9800 3700 9400 3700
+Text GLabel 9800 3700 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	9900 2000 9500 2000
+Text GLabel 9900 2000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	8900 2100 8700 2100
+Wire Wire Line
+	8900 2100 8900 1900
+Wire Wire Line
+	8900 1900 9200 1900
+Connection ~ 8900 2100
+Wire Wire Line
+	7700 3700 7700 3900
+Wire Wire Line
+	7700 3900 8300 3900
+Wire Wire Line
+	8300 3900 8300 3600
+Wire Wire Line
+	8300 3600 9100 3600
+Connection ~ 8300 3600
+Wire Wire Line
+	7700 3500 7600 3500
+Wire Wire Line
+	2400 2800 2800 2800
+Wire Wire Line
+	2800 2800 3200 2800
+Connection ~ 2800 2800
+Wire Wire Line
+	3200 2700 3200 2200
+Wire Wire Line
+	3200 2200 3000 2200
+Wire Wire Line
+	3600 2200 3200 2200
+Connection ~ 3200 2200
+Wire Wire Line
+	3300 3500 3800 3500
+Wire Wire Line
+	3800 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 4000
+Connection ~ 3800 3500
+$Comp
+L clocker-12b-eagle-import:LB L1
+U 1 1 99C56A5D
+P 4800 2700
+AR Path="/99C56A5D" Ref="L1"  Part="1" 
+AR Path="/5F569AC1/99C56A5D" Ref="L1"  Part="1" 
+F 0 "L1" H 4715 2792 70  0000 L BNN
+F 1 "BEAD" H 4690 2600 70  0000 L BNN
+F 2 "clocker-12b:0603" H 4800 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:VREG-POS78A VR1
+U 1 1 D05635DA
+P 4800 3100
+AR Path="/D05635DA" Ref="VR1"  Part="1" 
+AR Path="/5F569AC1/D05635DA" Ref="VR1"  Part="1" 
+F 0 "VR1" H 4900 2800 70  0000 L BNN
+F 1 "78M05" H 4900 2700 70  0000 L BNN
+F 2 "clocker-12b:DPAK" H 4800 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0001 C CNN
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:VREG-POS78R VR2
+U 1 1 6B797E86
+P 8400 2100
+AR Path="/6B797E86" Ref="VR2"  Part="1" 
+AR Path="/5F569AC1/6B797E86" Ref="VR2"  Part="1" 
+F 0 "VR2" H 8500 1800 70  0000 L BNN
+F 1 "78L09" H 8500 1700 70  0000 L BNN
+F 2 "clocker-12b:SOT89" H 8400 2100 50  0001 C CNN
+F 3 "" H 8400 2100 50  0001 C CNN
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY12
+U 1 1 2DC6D685
+P 4800 3500
+AR Path="/2DC6D685" Ref="#SUPPLY12"  Part="1" 
+AR Path="/5F569AC1/2DC6D685" Ref="#SUPPLY012"  Part="1" 
+F 0 "#SUPPLY012" H 4800 3500 50  0001 C CNN
+F 1 "GND" H 4725 3375 59  0000 L BNN
+F 2 "" H 4800 3500 50  0001 C CNN
+F 3 "" H 4800 3500 50  0001 C CNN
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY13
+U 1 1 2BFC460F
+P 8400 2500
+AR Path="/2BFC460F" Ref="#SUPPLY13"  Part="1" 
+AR Path="/5F569AC1/2BFC460F" Ref="#SUPPLY013"  Part="1" 
+F 0 "#SUPPLY013" H 8400 2500 50  0001 C CNN
+F 1 "GND" H 8325 2375 59  0000 L BNN
+F 2 "" H 8400 2500 50  0001 C CNN
+F 3 "" H 8400 2500 50  0001 C CNN
+	1    8400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+5V #P+5
+U 1 1 A86A3590
+P 5300 2900
+AR Path="/A86A3590" Ref="#P+5"  Part="1" 
+AR Path="/5F569AC1/A86A3590" Ref="#P+05"  Part="1" 
+F 0 "#P+05" H 5300 2900 50  0001 C CNN
+F 1 "+5V" V 5400 3000 59  0000 R TNN
+F 2 "" H 5300 2900 50  0001 C CNN
+F 3 "" H 5300 2900 50  0001 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X8SHRD POWER
+U 1 1 1A37059A
+P 2600 3200
+AR Path="/1A37059A" Ref="POWER"  Part="1" 
+AR Path="/5F569AC1/1A37059A" Ref="POWER1"  Part="1" 
+F 0 "POWER1" H 2500 3680 59  0000 L BNN
+F 1 "HEADER-2X8-SMT" H 2100 2760 59  0000 L BNN
+F 2 "clocker-12b:HEADER-2X8-SMT-SHROUDED" H 2600 3200 50  0001 C CNN
+F 3 "" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:DA D4
+U 1 1 DDDDF617
+P 4000 3100
+AR Path="/DDDDF617" Ref="D4"  Part="1" 
+AR Path="/5F569AC1/DDDDF617" Ref="D4"  Part="1" 
+F 0 "D4" H 3884 3204 70  0000 L BNN
+F 1 "B140-E3" H 3824 2923 70  0000 L BNN
+F 2 "clocker-12b:SMA" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:C-POL5 C6
+U 1 1 63ECBF86
+P 5300 3200
+AR Path="/63ECBF86" Ref="C6"  Part="1" 
+AR Path="/5F569AC1/63ECBF86" Ref="C6"  Part="1" 
+F 0 "C6" H 5340 3225 70  0000 L BNN
+F 1 "47uF" H 5340 3035 70  0000 L BNN
+F 2 "clocker-12b:C-POL-5" H 5300 3200 50  0001 C CNN
+F 3 "" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:C-POL5 C7
+U 1 1 E02A517A
+P 8900 2200
+AR Path="/E02A517A" Ref="C7"  Part="1" 
+AR Path="/5F569AC1/E02A517A" Ref="C7"  Part="1" 
+F 0 "C7" H 8940 2225 70  0000 L BNN
+F 1 "47uF" H 8940 2035 70  0000 L BNN
+F 2 "clocker-12b:C-POL-5" H 8900 2200 50  0001 C CNN
+F 3 "" H 8900 2200 50  0001 C CNN
+	1    8900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:C-POL5 C8
+U 1 1 5E043582
+P 4400 3200
+AR Path="/5E043582" Ref="C8"  Part="1" 
+AR Path="/5F569AC1/5E043582" Ref="C8"  Part="1" 
+F 0 "C8" H 4440 3225 70  0000 L BNN
+F 1 "47uF" H 4440 3035 70  0000 L BNN
+F 2 "clocker-12b:C-POL-5" H 4400 3200 50  0001 C CNN
+F 3 "" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY14
+U 1 1 F46B704E
+P 4400 3500
+AR Path="/F46B704E" Ref="#SUPPLY14"  Part="1" 
+AR Path="/5F569AC1/F46B704E" Ref="#SUPPLY014"  Part="1" 
+F 0 "#SUPPLY014" H 4400 3500 50  0001 C CNN
+F 1 "GND" H 4325 3375 59  0000 L BNN
+F 2 "" H 4400 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY15
+U 1 1 C1663F63
+P 5300 3500
+AR Path="/C1663F63" Ref="#SUPPLY15"  Part="1" 
+AR Path="/5F569AC1/C1663F63" Ref="#SUPPLY015"  Part="1" 
+F 0 "#SUPPLY015" H 5300 3500 50  0001 C CNN
+F 1 "GND" H 5225 3375 59  0000 L BNN
+F 2 "" H 5300 3500 50  0001 C CNN
+F 3 "" H 5300 3500 50  0001 C CNN
+	1    5300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY16
+U 1 1 5B45ADA1
+P 8900 2500
+AR Path="/5B45ADA1" Ref="#SUPPLY16"  Part="1" 
+AR Path="/5F569AC1/5B45ADA1" Ref="#SUPPLY016"  Part="1" 
+F 0 "#SUPPLY016" H 8900 2500 50  0001 C CNN
+F 1 "GND" H 8825 2375 59  0000 L BNN
+F 2 "" H 8900 2500 50  0001 C CNN
+F 3 "" H 8900 2500 50  0001 C CNN
+	1    8900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-1X3 5VSEL
+U 1 1 B6D3B89E
+P 5600 3100
+AR Path="/B6D3B89E" Ref="5VSEL"  Part="1" 
+AR Path="/5F569AC1/B6D3B89E" Ref="5VSEL1"  Part="1" 
+F 0 "5VSEL1" H 5600 3380 59  0000 L BNN
+F 1 "HEADER-1X3-TH" H 5600 3460 59  0000 L BNN
+F 2 "clocker-12b:HEADER-1X3-TH" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-1X2 JP1
+U 1 1 43AE0F1D
+P 3400 2800
+AR Path="/43AE0F1D" Ref="JP1"  Part="1" 
+AR Path="/5F569AC1/43AE0F1D" Ref="JP1"  Part="1" 
+F 0 "JP1" H 3400 3080 59  0000 L BNN
+F 1 "1x2-TH" H 3100 2660 59  0000 L BNN
+F 2 "clocker-12b:HEADER-1X2-TH" H 3400 2800 50  0001 C CNN
+F 3 "" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+12V #+12V1
+U 1 1 A3745387
+P 4400 3000
+AR Path="/A3745387" Ref="#+12V1"  Part="1" 
+AR Path="/5F569AC1/A3745387" Ref="#+12V01"  Part="1" 
+F 0 "#+12V01" H 4400 3000 50  0001 C CNN
+F 1 "+12V" H 4300 3100 70  0000 L BNN
+F 2 "" H 4400 3000 50  0001 C CNN
+F 3 "" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+12V #+12V2
+U 1 1 5BAC2569
+P 8000 2000
+AR Path="/5BAC2569" Ref="#+12V2"  Part="1" 
+AR Path="/5F569AC1/5BAC2569" Ref="#+12V02"  Part="1" 
+F 0 "#+12V02" H 8000 2000 50  0001 C CNN
+F 1 "+12V" H 7900 2100 70  0000 L BNN
+F 2 "" H 8000 2000 50  0001 C CNN
+F 3 "" H 8000 2000 50  0001 C CNN
+	1    8000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-MALESMT H5
+U 2 1 54908F7D
+P 9400 1900
+AR Path="/54908F7D" Ref="H5"  Part="2" 
+AR Path="/5F569AC1/54908F7D" Ref="H5"  Part="2" 
+F 0 "H5" H 9500 1900 42  0000 L BNN
+F 1 "HEADER-2X3-B2B-MALESMT" H 9400 1900 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-SMT" H 9400 1900 50  0001 C CNN
+F 3 "" H 9400 1900 50  0001 C CNN
+	2    9400 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-MALESMT H5
+U 3 1 54908F79
+P 9300 3600
+AR Path="/54908F79" Ref="H5"  Part="3" 
+AR Path="/5F569AC1/54908F79" Ref="H5"  Part="3" 
+F 0 "H5" H 9400 3600 42  0000 L BNN
+F 1 "HEADER-2X3-B2B-MALESMT" H 9300 3600 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-SMT" H 9300 3600 50  0001 C CNN
+F 3 "" H 9300 3600 50  0001 C CNN
+	3    9300 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-MALESMT H5
+U 5 1 54908F61
+P 9400 2000
+AR Path="/54908F61" Ref="H5"  Part="5" 
+AR Path="/5F569AC1/54908F61" Ref="H5"  Part="5" 
+F 0 "H5" H 9500 2000 42  0000 L BNN
+F 1 "HEADER-2X3-B2B-MALESMT" H 9400 2000 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-SMT" H 9400 2000 50  0001 C CNN
+F 3 "" H 9400 2000 50  0001 C CNN
+	5    9400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-MALESMT H5
+U 6 1 54908F6D
+P 9300 3700
+AR Path="/54908F6D" Ref="H5"  Part="6" 
+AR Path="/5F569AC1/54908F6D" Ref="H5"  Part="6" 
+F 0 "H5" H 9400 3700 42  0000 L BNN
+F 1 "HEADER-2X3-B2B-MALESMT" H 9300 3700 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-SMT" H 9300 3700 50  0001 C CNN
+F 3 "" H 9300 3700 50  0001 C CNN
+	6    9300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+9V #+9V4
+U 1 1 720FC299
+P 9900 1800
+AR Path="/720FC299" Ref="#+9V4"  Part="1" 
+AR Path="/5F569AC1/720FC299" Ref="#+9V04"  Part="1" 
+F 0 "#+9V04" H 9900 1800 50  0001 C CNN
+F 1 "+9V" H 9800 1900 70  0000 L BNN
+F 2 "" H 9900 1800 50  0001 C CNN
+F 3 "" H 9900 1800 50  0001 C CNN
+	1    9900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:VREF #U$3
+U 1 1 2AECCF64
+P 9800 3500
+AR Path="/2AECCF64" Ref="#U$3"  Part="1" 
+AR Path="/5F569AC1/2AECCF64" Ref="#U$03"  Part="1" 
+F 0 "#U$03" H 9800 3500 50  0001 C CNN
+F 1 "VREF" H 9700 3600 70  0000 L BNN
+F 2 "" H 9800 3500 50  0001 C CNN
+F 3 "" H 9800 3500 50  0001 C CNN
+	1    9800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:AGND #AGND1
+U 1 1 16BABCD8
+P 9900 2100
+AR Path="/16BABCD8" Ref="#AGND1"  Part="1" 
+AR Path="/5F569AC1/16BABCD8" Ref="#AGND01"  Part="1" 
+F 0 "#AGND01" H 9900 2100 50  0001 C CNN
+F 1 "GND2" H 9800 1950 70  0000 L BNN
+F 2 "" H 9900 2100 50  0001 C CNN
+F 3 "" H 9900 2100 50  0001 C CNN
+	1    9900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:AGND #AGND2
+U 1 1 CFF0CE5A
+P 9800 3800
+AR Path="/CFF0CE5A" Ref="#AGND2"  Part="1" 
+AR Path="/5F569AC1/CFF0CE5A" Ref="#AGND02"  Part="1" 
+F 0 "#AGND02" H 9800 3800 50  0001 C CNN
+F 1 "GND2" H 9700 3650 70  0000 L BNN
+F 2 "" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY10
+U 1 1 E89B1DFB
+P 3000 3300
+AR Path="/E89B1DFB" Ref="#SUPPLY10"  Part="1" 
+AR Path="/5F569AC1/E89B1DFB" Ref="#SUPPLY010"  Part="1" 
+F 0 "#SUPPLY010" H 3000 3300 50  0001 C CNN
+F 1 "GND" H 2925 3175 59  0000 L BNN
+F 2 "" H 3000 3300 50  0001 C CNN
+F 3 "" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY11
+U 1 1 247CF9B2
+P 9100 2100
+AR Path="/247CF9B2" Ref="#SUPPLY11"  Part="1" 
+AR Path="/5F569AC1/247CF9B2" Ref="#SUPPLY011"  Part="1" 
+F 0 "#SUPPLY011" H 9100 2100 50  0001 C CNN
+F 1 "GND" H 9025 1975 59  0000 L BNN
+F 2 "" H 9100 2100 50  0001 C CNN
+F 3 "" H 9100 2100 50  0001 C CNN
+	1    9100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:OPAMP-2TL072M IC3
+U 1 1 CD8C1358
+P 8000 3600
+AR Path="/CD8C1358" Ref="IC3"  Part="1" 
+AR Path="/5F569AC1/CD8C1358" Ref="IC3"  Part="1" 
+F 0 "IC3" H 7900 3600 70  0000 L BNN
+F 1 "TL072" H 8100 3400 70  0001 L BNN
+F 2 "clocker-12b:SOIC8" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:OPAMP-2TL072M IC3
+U 2 1 CD8C1354
+P 2700 2100
+AR Path="/CD8C1354" Ref="IC3"  Part="2" 
+AR Path="/5F569AC1/CD8C1354" Ref="IC3"  Part="2" 
+F 0 "IC3" H 2600 2100 70  0000 L BNN
+F 1 "TL072" H 2800 1900 70  0001 L BNN
+F 2 "clocker-12b:SOIC8" H 2700 2100 50  0001 C CNN
+F 3 "" H 2700 2100 50  0001 C CNN
+	2    2700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:OPAMP-2TL072M IC3
+U 3 1 CD8C1350
+P 4500 4000
+AR Path="/CD8C1350" Ref="IC3"  Part="3" 
+AR Path="/5F569AC1/CD8C1350" Ref="IC3"  Part="3" 
+F 0 "IC3" H 4400 4000 70  0000 L BNN
+F 1 "TL072" H 4600 3800 70  0001 L BNN
+F 2 "clocker-12b:SOIC8" H 4500 4000 50  0001 C CNN
+F 3 "" H 4500 4000 50  0001 C CNN
+	3    4500 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+12V #+12V4
+U 1 1 BA7D269E
+P 4800 3900
+AR Path="/BA7D269E" Ref="#+12V4"  Part="1" 
+AR Path="/5F569AC1/BA7D269E" Ref="#+12V04"  Part="1" 
+F 0 "#+12V04" H 4800 3900 50  0001 C CNN
+F 1 "+12V" H 4700 4000 70  0000 L BNN
+F 2 "" H 4800 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:POT-MI TR24
+U 1 1 C3BD0F3E
+P 7400 3500
+AR Path="/C3BD0F3E" Ref="TR24"  Part="1" 
+AR Path="/5F569AC1/C3BD0F3E" Ref="TR24"  Part="1" 
+F 0 "TR24" V 7300 3600 70  0000 R TNN
+F 1 "10k" V 7300 3500 70  0000 R TNN
+F 2 "clocker-12b:PIHER-6MM" H 7400 3500 50  0001 C CNN
+F 3 "" H 7400 3500 50  0001 C CNN
+F 4 "LED DIM" V 7330 3700 70  0001 R TNN "USE"
+	1    7400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY19
+U 1 1 B699DEFF
+P 7400 4300
+AR Path="/B699DEFF" Ref="#SUPPLY19"  Part="1" 
+AR Path="/5F569AC1/B699DEFF" Ref="#SUPPLY019"  Part="1" 
+F 0 "#SUPPLY019" H 7400 4300 50  0001 C CNN
+F 1 "GND" H 7325 4175 59  0000 L BNN
+F 2 "" H 7400 4300 50  0001 C CNN
+F 3 "" H 7400 4300 50  0001 C CNN
+	1    7400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+5V #P+10
+U 1 1 886C3673
+P 7400 3100
+AR Path="/886C3673" Ref="#P+10"  Part="1" 
+AR Path="/5F569AC1/886C3673" Ref="#P+010"  Part="1" 
+F 0 "#P+010" H 7400 3100 50  0001 C CNN
+F 1 "+5V" V 7400 3200 59  0000 R TNN
+F 2 "" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-FEMALETH-BOT H8
+U 3 1 BC872E41
+P 9200 1900
+AR Path="/BC872E41" Ref="H8"  Part="3" 
+AR Path="/5F569AC1/BC872E41" Ref="H8"  Part="3" 
+F 0 "H8" H 9205 1900 42  0000 R BNN
+F 1 "HEADER-2X3-B2B-FEMALETH-BOT" H 9200 1900 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-TH-BOTTOM" H 9200 1900 50  0001 C CNN
+F 3 "" H 9200 1900 50  0001 C CNN
+	3    9200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-FEMALETH-BOT H8
+U 4 1 BC872E5D
+P 9200 2000
+AR Path="/BC872E5D" Ref="H8"  Part="4" 
+AR Path="/5F569AC1/BC872E5D" Ref="H8"  Part="4" 
+F 0 "H8" H 9205 2000 42  0000 R BNN
+F 1 "HEADER-2X3-B2B-FEMALETH-BOT" H 9200 2000 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-TH-BOTTOM" H 9200 2000 50  0001 C CNN
+F 3 "" H 9200 2000 50  0001 C CNN
+	4    9200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-FEMALETH-BOT H8
+U 5 1 BC872E59
+P 9100 3600
+AR Path="/BC872E59" Ref="H8"  Part="5" 
+AR Path="/5F569AC1/BC872E59" Ref="H8"  Part="5" 
+F 0 "H8" H 9105 3600 42  0000 R BNN
+F 1 "HEADER-2X3-B2B-FEMALETH-BOT" H 9100 3600 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-TH-BOTTOM" H 9100 3600 50  0001 C CNN
+F 3 "" H 9100 3600 50  0001 C CNN
+	5    9100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:HEADER-2X3-B2B-FEMALETH-BOT H8
+U 6 1 BC872E55
+P 9100 3700
+AR Path="/BC872E55" Ref="H8"  Part="6" 
+AR Path="/5F569AC1/BC872E55" Ref="H8"  Part="6" 
+F 0 "H8" H 9105 3700 42  0000 R BNN
+F 1 "HEADER-2X3-B2B-FEMALETH-BOT" H 9100 3700 50  0001 C CNN
+F 2 "clocker-12b:HEADER-2X3-TH-BOTTOM" H 9100 3700 50  0001 C CNN
+F 3 "" H 9100 3700 50  0001 C CNN
+	6    9100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:RB R25
+U 1 1 CDFB7E1E
+P 7400 4000
+AR Path="/CDFB7E1E" Ref="R25"  Part="1" 
+AR Path="/5F569AC1/CDFB7E1E" Ref="R25"  Part="1" 
+F 0 "R25" H 7600 3859 70  0000 L BNN
+F 1 "10k" H 7300 3870 70  0000 L BNN
+F 2 "clocker-12b:R0603" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY20
+U 1 1 FA8A13AF
+P 8900 3900
+AR Path="/FA8A13AF" Ref="#SUPPLY20"  Part="1" 
+AR Path="/5F569AC1/FA8A13AF" Ref="#SUPPLY020"  Part="1" 
+F 0 "#SUPPLY020" H 8900 3900 50  0001 C CNN
+F 1 "GND" H 8825 3775 59  0000 L BNN
+F 2 "" H 8900 3900 50  0001 C CNN
+F 3 "" H 8900 3900 50  0001 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:RB R26
+U 1 1 FFF3480B
+P 3600 2400
+AR Path="/FFF3480B" Ref="R26"  Part="1" 
+AR Path="/5F569AC1/FFF3480B" Ref="R26"  Part="1" 
+F 0 "R26" H 3600 2559 70  0000 L BNN
+F 1 "470k" H 3600 2470 70  0000 L BNN
+F 2 "clocker-12b:R0603" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2400 50  0001 C CNN
+	1    3600 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:DA D5
+U 1 1 B6D09230
+P 3200 3500
+AR Path="/B6D09230" Ref="D5"  Part="1" 
+AR Path="/5F569AC1/B6D09230" Ref="D5"  Part="1" 
+F 0 "D5" H 3084 3604 70  0000 L BNN
+F 1 "B140-E3" H 3084 3703 70  0000 L BNN
+F 2 "clocker-12b:SMA" H 3200 3500 50  0001 C CNN
+F 3 "" H 3200 3500 50  0001 C CNN
+	1    3200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY17
+U 1 1 BEE25594
+P 3600 2700
+AR Path="/BEE25594" Ref="#SUPPLY17"  Part="1" 
+AR Path="/5F569AC1/BEE25594" Ref="#SUPPLY017"  Part="1" 
+F 0 "#SUPPLY017" H 3600 2700 50  0001 C CNN
+F 1 "GND" H 3525 2575 59  0000 L BNN
+F 2 "" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:CB C10
+U 1 1 E5C7F153
+P 3800 3700
+AR Path="/E5C7F153" Ref="C10"  Part="1" 
+AR Path="/5F569AC1/E5C7F153" Ref="C10"  Part="1" 
+F 0 "C10" H 3840 3725 70  0000 L BNN
+F 1 "0.1uF" H 3840 3535 70  0000 L BNN
+F 2 "clocker-12b:C0603" H 3800 3700 50  0001 C CNN
+F 3 "" H 3800 3700 50  0001 C CNN
+	1    3800 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY18
+U 1 1 9A1150D3
+P 3800 3900
+AR Path="/9A1150D3" Ref="#SUPPLY18"  Part="1" 
+AR Path="/5F569AC1/9A1150D3" Ref="#SUPPLY018"  Part="1" 
+F 0 "#SUPPLY018" H 3800 3900 50  0001 C CNN
+F 1 "GND" H 3725 3775 59  0000 L BNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:CB C11
+U 1 1 608006B0
+P 6400 3200
+AR Path="/608006B0" Ref="C11"  Part="1" 
+AR Path="/5F569AC1/608006B0" Ref="C11"  Part="1" 
+F 0 "C11" H 6440 3225 70  0000 L BNN
+F 1 "0.1uF" H 6440 3035 70  0000 L BNN
+F 2 "clocker-12b:C0603" H 6400 3200 50  0001 C CNN
+F 3 "" H 6400 3200 50  0001 C CNN
+	1    6400 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L clocker-12b-eagle-import:GND #SUPPLY21
+U 1 1 C8C2A780
+P 6400 3400
+AR Path="/C8C2A780" Ref="#SUPPLY21"  Part="1" 
+AR Path="/5F569AC1/C8C2A780" Ref="#SUPPLY021"  Part="1" 
+F 0 "#SUPPLY021" H 6400 3400 50  0001 C CNN
+F 1 "GND" H 6325 3275 59  0000 L BNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L clocker-12b-eagle-import:+5V #P+11
+U 1 1 47FE03AB
+P 6400 2900
+AR Path="/47FE03AB" Ref="#P+11"  Part="1" 
+AR Path="/5F569AC1/47FE03AB" Ref="#P+011"  Part="1" 
+F 0 "#P+011" H 6400 2900 50  0001 C CNN
+F 1 "+5V" V 6500 3000 59  0000 R TNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
